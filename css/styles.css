@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee|Hind|PT+Sans|Pacifico|Poppins|Lobster");
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --tomato-color: #ff433d;
+  --yellow-color: #ffb347;
+  --megenta-color: rgba(168, 2, 168, 0.897);
+  --lime-color: rgba(8, 248, 80, 0.932);
+  --light-orange: #ff6215;
+  --poppins: "Poppins", sans-serif;
+  --bungee: "Bungee", cursive;
+  --lobster: "Lobster", cursive;
+  --pacifico: "Pacifico", cursive;
+  font-size: 10px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tomato-color);
+    font-family: var(--poppins);
+    color: var(--yellow-color);
+    font-size: 2rem;
+
+}
+
+h1 {
+    font-family: var(--poppins);
+    font-size: 3rem;
+    margin: 2rem 3rem;
+}
+
+button {
+    font-family: var(--poppins);
+    font-size: 1.5rem;
+    margin:
+    2rem 3rem;
+    background-color: var(--yellow-color);
+
+}
+
+ul li {
+    margin: 2rem 3rem;
+    list-style: none;
+    font-size: 2rem;
+}
+
+ul li:active,
+ul li:hover {
+    background-color: var(--magenta-color);
+}
+
+ul li:active {
+    background-color: var(--magenta-color);
+
+}
+
+.active, li:hover {
+    background-color: var(--magenta-color);
+
+}
